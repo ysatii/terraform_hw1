@@ -113,6 +113,12 @@ personal.auto.tfvars
  ![рис 14](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_14.jpg)  
  ![рис 15](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_15.jpg)  
 
+5. Выполним код. В качестве ответа приложим: исправленный фрагмент кода и вывод команды ```docker ps```.
+ ![рис 16](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_16.jpg)  
+ ![рис 17](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_17.jpg)  
+ ![рис 18](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_18.jpg)  
+ 
+
 ## Дополнительное задание (со звёздочкой*)
 
 **Настоятельно рекомендуем выполнять все задания со звёздочкой.** Они помогут глубже разобраться в материале.   
