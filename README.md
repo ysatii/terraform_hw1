@@ -52,7 +52,7 @@
 ------
 
 ### Решение 1
-1. Перейдите в каталог [**src**](https://github.com/netology-code/ter-homeworks/tree/main/01/src). Скачайте все необходимые зависимости, использованные в проекте. 
+1. Перейдем в каталог [**src**](https://github.com/netology-code/ter-homeworks/tree/main/01/src). Скачаем все необходимые зависимости, использованные в проекте. 
  ![рис 4](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_4.jpg)
 
 ## Дополнительное задание (со звёздочкой*)
