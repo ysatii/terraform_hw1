@@ -98,7 +98,7 @@ personal.auto.tfvars
  снова Ошибка, указывает что 
  строка 24: resource "docker_image" должен иметь два параметра имя и тип  и имя 
  исправляем запускаем снова 
-  
+ ![рис 11](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_11.jpg)  
  опять ошибка,  31:   name  = "example_${random_password.random_string_FAKE.resulT}"
    не правильно указан параметр "random_password.random_string_FAKE.resulT"
 
