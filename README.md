@@ -53,7 +53,36 @@
 
 ### Решение 1
 1. Перейдем в каталог [**src**](https://github.com/netology-code/ter-homeworks/tree/main/01/src). Скачаем все необходимые зависимости, использованные в проекте. 
- ![рис 4](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_4.jpg)
+ ![рис 4](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_4.jpg)  
+
+2. Изучим содержимое .gitignore*
+ ![рис 5](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_5.jpg)
+
+**/.terraform/*
+    Исключает все файлы и папки, находящиеся в любом каталоге .terraform.
+    Каталог .terraform создаётся Terraform для хранения провайдеров, модуля и других временных данных, которые не должны попадать в репозиторий.
+
+!.terraform*
+    Исключает все файлы или каталоги, названия которых начинаются с .terraform.
+    Например: .terraform.lock.hcl или .terraform_backup.
+
+!.terraformrc
+    Делает исключение для файла .terraformrc.
+    Этот файл обычно используется для пользовательских настроек Terraform и может быть полезен для совместного использования, но его включение в репозиторий нужно учитывать осторожно, так как он может содержать конфиденциальные данные.
+
+*.tfstate и *.tfstate.*
+    Исключает файлы состояния Terraform:
+        terraform.tfstate: основной файл состояния, который содержит текущую конфигурацию инфраструктуры.
+        terraform.tfstate.backup или любые другие версии с суффиксом (например, .tfstate.12345).
+    Эти файлы важны для работы Terraform, но их нельзя загружать в репозиторий, так как они могут содержать чувствительные данные (например, IP-адреса, токены доступа и т. д.).
+
+Согласно этому .gitignore, для хранения личной и секретной информации допустимо использовать файл:
+personal.auto.tfvars
+
+3. Выполним код проекта. Найдем  в state-файле секретное содержимое созданного ресурса **random_password**, пришлите в качестве ответа конкретный ключ и его значение.  
+ ![рис 5](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_5.jpg)  
+ ![рис 5](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_5.jpg)  
+ ![рис 5](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_5.jpg)  
 
 ## Дополнительное задание (со звёздочкой*)
 
