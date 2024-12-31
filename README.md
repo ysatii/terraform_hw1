@@ -80,9 +80,25 @@
 personal.auto.tfvars
 
 3. Выполним код проекта. Найдем  в state-файле секретное содержимое созданного ресурса **random_password**, пришлите в качестве ответа конкретный ключ и его значение.  
- ![рис 5](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_5.jpg)  
- ![рис 5](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_5.jpg)  
- ![рис 5](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_5.jpg)  
+ ![рис 6](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_6.jpg)  
+ ![рис 7](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_7.jpg)  
+ ![рис 8](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_8.jpg)  
+```
+"result": "8POGskoI6SaZr4yZ"
+``` 
+4. Раскомментируем блок кода, примерно расположенный на строчках 29–42 файла **main.tf**.
+Выполните команду ```terraform validate```. Объясните, в чём заключаются намеренно допущенные ошибки. Исправьте их.  
+ ![рис 9](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_9.jpg)   
+ошибка указывает что имя контейнера не может начинаться с цифры
+
+ ![рис 10](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_10.jpg)  
+ошибка исправлена запускаем валидацию еще раз
+
+ ![рис 11](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_11.jpg)  
+ ![рис 12](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_12.jpg)  
+ ![рис 13](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_13.jpg)  
+ ![рис 14](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_14.jpg)  
+ ![рис 15](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_15.jpg)  
 
 ## Дополнительное задание (со звёздочкой*)
 
