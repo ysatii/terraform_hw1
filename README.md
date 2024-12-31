@@ -95,15 +95,16 @@ personal.auto.tfvars
 ошибка исправлена запускаем валидацию еще раз 
  ![рис 10](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_10.jpg)  
 
- снова Ошибка, указывает что 
+ 
+ ![рис 11](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_11.jpg) 
+  снова Ошибка, указывает что 
  строка 24: resource "docker_image" должен иметь два параметра имя и тип  и имя 
- исправляем запускаем снова 
- ![рис 11](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_11.jpg)  
- опять ошибка,  31:   name  = "example_${random_password.random_string_FAKE.resulT}"
-   не правильно указан параметр "random_password.random_string_FAKE.resulT"
+
 
  ![рис 12](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_12.jpg)  
-
+ исправляем запускаем снова 
+ опять ошибка,  31:   name  = "example_${random_password.random_string_FAKE.resulT}"
+   не правильно указан параметр "random_password.random_string_FAKE.resulT"
  Исправляем 
  ![рис 13](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_13.jpg)  
 
