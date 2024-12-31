@@ -18,7 +18,9 @@
 
 ### готовоность к выполнению домашнего задания
 1. Terraform установлен 
- ![рис 1](https://github.com/ysatii/Course_project_on_the_block_System_Administration/blob/extended/img/shema2.jpg)
+ ![рис 1](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_1.jpg)
+
+
 
 
 ### Инструменты и дополнительные материалы, которые пригодятся для выполнения задания
