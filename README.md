@@ -95,7 +95,6 @@ personal.auto.tfvars
 ошибка исправлена запускаем валидацию еще раз 
  ![рис 10](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_10.jpg)  
 
-  ![рис 11](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_11.jpg) 
  снова Ошибка, указывает что 
  строка 24: resource "docker_image" должен иметь два параметра имя и тип  и имя 
  исправляем запускаем снова 
