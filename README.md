@@ -85,18 +85,30 @@ personal.auto.tfvars
  ![рис 8](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_8.jpg)  
 ```
 "result": "8POGskoI6SaZr4yZ"
-``` 
+```  
+
 4. Раскомментируем блок кода, примерно расположенный на строчках 29–42 файла **main.tf**.
 Выполните команду ```terraform validate```. Объясните, в чём заключаются намеренно допущенные ошибки. Исправьте их.  
  ![рис 9](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_9.jpg)   
-ошибка указывает что имя контейнера не может начинаться с цифры
+ошибка указывает что имя контейнера не может начинаться с цифры  
 
+ошибка исправлена запускаем валидацию еще раз 
  ![рис 10](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_10.jpg)  
-ошибка исправлена запускаем валидацию еще раз
 
- ![рис 11](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_11.jpg)  
+  ![рис 11](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_11.jpg) 
+ снова Ошибка, указывает что 
+ строка 24: resource "docker_image" должен иметь два параметра имя и тип  и имя 
+ исправляем запускаем снова 
+  
+ опять ошибка,  31:   name  = "example_${random_password.random_string_FAKE.resulT}"
+   не правильно указан параметр "random_password.random_string_FAKE.resulT"
+
  ![рис 12](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_12.jpg)  
+
+ Исправляем 
  ![рис 13](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_13.jpg)  
+
+ Успешно!
  ![рис 14](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_14.jpg)  
  ![рис 15](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_15.jpg)  
 
