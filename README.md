@@ -20,10 +20,10 @@
 1. Terraform установлен  
  ![рис 1](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_1.jpg)
 
-2. Репозиторий скачан 
+2. Репозиторий скачан  
  ![рис 2](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_2.jpg)
 
-3. Docker установлен 
+3. Docker установлен  
  ![рис 3](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_3.jpg)
 
 
