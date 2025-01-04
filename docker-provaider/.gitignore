@@ -18,9 +18,6 @@ terraform.tfstate.*
 # Игнорировать выходные данные планов Terraform
 terraform.tfplan
 
-# Игнорировать файлы конфигурации CLI Terraform
-.terraformrc
-terraform.rc
 
 # Игнорировать другие временные файлы IDE и систем
 *.swp
