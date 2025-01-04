@@ -118,6 +118,18 @@ personal.auto.tfvars
  ![рис 17](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_17.jpg)  
  ![рис 18](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_18.jpg)  
  
+6. Замениv имя docker-контейнера в блоке кода на hello_world. Не перепутайте имя контейнера и имя образа. Мы всё ещё продолжаем использовать name = "nginx:latest". Выполните команду terraform apply -auto-approve.
+ ![рис 31](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_31.jpg)  
+-auto-approve опасен тем что выполнит скрипт автоматически что может привести к необратимым последствиям в случаии ошибок!
+такая опция может быть необходима для систем  CI/CD где действия нужноь выполнять автоматичеси!  
+
+7. Удалим  объекты созданныые terraform 
+ ![рис 32](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_32.jpg)  
+ ![рис 33](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_33.jpg)  
+
+8. Объясните, почему при этом не был удалён docker-образ nginx:latest. Ответ ОБЯЗАТЕЛЬНО НАЙДИТЕ В ПРЕДОСТАВЛЕННОМ КОДЕ, а затем ОБЯЗАТЕЛЬНО ПОДКРЕПИТЕ строчкой из документации terraform провайдера docker. (ищите в классификаторе resource docker_image )
+
+потому что использовали параметр keep_locally = true при создании образа.  
 
 ## Дополнительное задание (со звёздочкой*)
 
@@ -161,8 +173,14 @@ terraform apply
  ![рис 26](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_26.jpg)  
  ![рис 27](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_27.jpg)  
 
+подклюючимся  к контейнеру и проверим переенные окружения  
+ ![рис 28](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_28.jpg) 
 
+удалим объекты terraform, проверим наличие образов и работающх контейнеров
+ ![рис 29](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_29.jpg) 
+ ![рис 30](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_30.jpg)  
 
+все контейнеры и образы уничтожены
 
 
 
