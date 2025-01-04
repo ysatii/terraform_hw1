@@ -1,0 +1,32 @@
+# Игнорировать локальные каталоги Terraform
+**/.terraform/*
+.terraform/
+
+# Игнорировать файлы состояния Terraform
+terraform.tfstate
+terraform.tfstate.*
+
+# Игнорировать файлы журнала блокировок состояния
+.terraform.lock.hcl
+
+# Игнорировать переменные среды и конфиденциальные данные
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Игнорировать выходные данные планов Terraform
+terraform.tfplan
+
+# Игнорировать файлы конфигурации CLI Terraform
+.terraformrc
+terraform.rc
+
+# Игнорировать другие временные файлы IDE и систем
+*.swp
+*.bak
+*.tmp
+*.DS_Store
+*.log
+
+token.txt
