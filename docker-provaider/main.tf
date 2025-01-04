@@ -17,7 +17,7 @@ resource "random_password" "random_string" {
 
 provider "docker" {
   #host = "tcp://84.201.144.127:2375"
-  host = "ssh://84.201.144.127.224"
+  host = "ssh://84.201.144.127"
   ssh_opts = ["-i", "~/.ssh/id_ed25519", "-o", "StrictHostKeyChecking=no"]
   
 }

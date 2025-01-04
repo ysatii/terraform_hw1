@@ -144,7 +144,28 @@ personal.auto.tfvars
 
 ### Решение  2*
 Машина создана! используем образ Ubuntu 24.04 LTS
- установим и настроем docker с помощью скрипта sh.sh
+ ![рис 23](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_23.jpg)  
+ установим и настроем docker с помощью скрипта [sh.sh](https://github.com/ysatii/terraform_hw1/blob/main/sh.sh) 
+ проверим версию terraform
+ ![рис 24](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_24.jpg)  
+
+Запустим скрипт terraform из папки docker-provaider командой  
+```
+terraform apply
+```
+скрипт выполнен успешно !
+ ![рис 25](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_25.jpg)  
+
+
+Проверим список работающих контейнеров и загруженных образов
+ ![рис 26](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_26.jpg)  
+ ![рис 27](https://github.com/ysatii/terraform_hw1/blob/main/img/ter_27.jpg)  
+
+
+
+
+
+
 
 
 
